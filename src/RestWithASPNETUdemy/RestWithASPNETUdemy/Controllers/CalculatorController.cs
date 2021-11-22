@@ -97,7 +97,7 @@ namespace RestWithASPNETUdemy.Controllers
         {
             if (IsNumeric(firstNumber))
             {
-                var square = Math.Sqrt(ConvertToDouble(firstNumber));
+                var square = Math.Sqrt((double)ConvertToDecimal(firstNumber));
                 return Ok(square.ToString());
             }
 
