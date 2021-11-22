@@ -110,7 +110,7 @@ namespace RestWithASPNETUdemy.Controllers
                 System.Globalization.NumberStyles.Any,
                 System.Globalization.NumberFormatInfo.InvariantInfo,
                 out number);
-            return isNumber;
+            return isNumber;//
         }
 
         private decimal ConvertToDecimal(string strNumber)
